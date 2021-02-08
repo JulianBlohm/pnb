@@ -1,7 +1,7 @@
-import styles from '../styles/Templates.module.css'
+import styles from '../styles/Action.module.css'
 import Link from 'next/link'
 
-export default function Templates() {
+export default function Action() {
     return (
         <div className={styles.container}>
             <header>
@@ -9,7 +9,7 @@ export default function Templates() {
             </header>
 
             <main className={styles.main}>
-                <h1>templates</h1>
+                <h1>action</h1>
                 <p>
                     Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
                     Aenean commodo ligula eget dolor. Aenean massa. Cum sociis
@@ -17,10 +17,10 @@ export default function Templates() {
                     ridiculus mus.
                 </p>
                 <a
-                    href="https://drive.google.com/drive/folders/1rVCvCXyPwiHeuuxqdQrEyXKKzr1T5ni4"
+                    href="mailto:"
                     target="_blank"
                 >
-                    download
+                    add your photo
                 </a>
             </main>
 
