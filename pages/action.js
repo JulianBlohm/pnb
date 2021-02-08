@@ -17,7 +17,7 @@ export default function Action() {
                     ridiculus mus.
                 </p>
                 <a
-                    href="mailto:"
+                    href="mailto:Personalitynotbiology@gmx.de"
                     target="_blank"
                 >
                     add your photo
