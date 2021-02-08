@@ -1,0 +1,9 @@
+.ul {
+    list-style: none;
+    text-align: center;
+}
+
+.footer {
+    display: flex;
+    justify-content: space-around;
+}
