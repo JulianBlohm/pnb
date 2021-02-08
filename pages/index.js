@@ -1,5 +1,7 @@
 import Head from 'next/head'
 import Image from 'next/image'
+import Link from 'next/link'
+
 import styles from '../styles/Home.module.css'
 
 export default function Home() {
@@ -11,7 +13,18 @@ export default function Home() {
             </Head>
 
             <header>
-                <h2>GENDER THROUGH PERSONALITY</h2>
+                <h2>
+                    GENDER THROUGH <br /> PERSONALITY
+                </h2>
+                <Link href="/navigation">
+                    <Image
+                        className={styles.star}
+                        src="/star.svg"
+                        alt=""
+                        width={30.58}
+                        height={30.07}
+                    />
+                </Link>
             </header>
 
             <main className={styles.main}>

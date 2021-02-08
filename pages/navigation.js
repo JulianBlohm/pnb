@@ -1,9 +1,22 @@
 import styles from '../styles/Navigation.module.css'
 import Link from 'next/link'
+import Image from 'next/image'
 
 export default function Navigation() {
     return (
         <div className={styles.container}>
+            <header>
+                <Link href="/navigation">
+                    <Image
+                        className={styles.star}
+                        src="/x.svg"
+                        alt=""
+                        width={19.37}
+                        height={18.32}
+                    />
+                </Link>
+            </header>
+
             <main className={styles.main}>
                 <ul className={styles.ul}>
                     <li>home</li>
