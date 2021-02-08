@@ -24,13 +24,13 @@ export default function Stories() {
             <main className={styles.main}>
                 <h1>stories</h1>
                 <ul>
-                    <li>Ricardo</li>
+                    <li><Link href="/stories/Ricardo">Ricardo</Link></li>
                     <li>Julia</li>
-                    <li>Ricardo</li>
+                    <li><Link href="/stories/Ricardo">Ricardo</Link></li>
                     <li>Julia</li>
-                    <li>Ricardo</li>
+                    <li><Link href="/stories/Ricardo">Ricardo</Link></li>
                     <li>Julia</li>
-                    <li>Ricardo</li>
+                    <li><Link href="/stories/Ricardo">Ricardo</Link></li>
                     <li>Julia</li>
                 </ul>
             </main>
