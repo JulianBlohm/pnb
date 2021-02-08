@@ -1,11 +1,24 @@
 import styles from '../styles/Action.module.css'
 import Link from 'next/link'
+import Image from 'next/image'
+
 
 export default function Action() {
     return (
         <div className={styles.container}>
             <header>
-                <h2>GENDER THROUGH PERSONALITY</h2>
+                <h2>
+                    GENDER THROUGH <br /> PERSONALITY
+                </h2>
+                <Link href="/navigation">
+                    <Image
+                        className={styles.star}
+                        src="/star.svg"
+                        alt=""
+                        width={30.58}
+                        height={30.07}
+                    />
+                </Link>
             </header>
 
             <main className={styles.main}>
