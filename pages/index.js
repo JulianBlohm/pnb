@@ -13,7 +13,7 @@ export default function Home() {
                 <link rel="stylesheet" href="/fonts/fonts.css" />
             </Head>
 
-            <header>
+            <header className={styles.header}>
                 <h2>
                     GENDER THROUGH <br /> PERSONALITY
                 </h2>
@@ -29,7 +29,7 @@ export default function Home() {
             </header>
 
             <main className={styles.main}>
-                <Image src="/Band_1.gif" alt="" width="750" height="1334" />
+                <Image className={styles.gif} src="/Band_1.gif" alt="" width="750" height="1334" />
             </main>
 
             <footer className={styles.footer}>

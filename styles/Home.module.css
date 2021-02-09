@@ -1,3 +1,25 @@
-.title {
-    font-weight: 500;
+.main {
+    position: relative;
+    z-index: 0;
+}
+
+.header {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    width: 100vw;
+}
+
+.footer {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    z-index: 1;
+    width: 100vw;
+}
+
+.gif {
+    width: auto;
+    max-height: 100vh;
 }
