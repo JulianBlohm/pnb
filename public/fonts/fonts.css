@@ -1,0 +1,27 @@
+@font-face {
+    font-family: 'Akzidenz';
+    src: url('AkzidenzGrotesk-Extended.otf');
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Akzidenz';
+    src: url('AkzidenzGrotesk-MediumExtended.otf');
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Akzidenz';
+    src: url('AkzidenzGrotesk-BoldExtended.otf');
+    font-weight: 700;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'InkTrap';
+    src: url('ABCWhyteInktrap-Book-Trial.otf');      
+    font-weight: normal;
+    font-style: normal;
+  }

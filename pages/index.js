@@ -10,10 +10,11 @@ export default function Home() {
             <Head>
                 <title>P not b</title>
                 <link rel="icon" href="/favicon.ico" />
+                <link rel="stylesheet" href="/fonts/fonts.css" />
             </Head>
 
             <header>
-                <h2>
+                <h2 className={styles.title}>
                     GENDER THROUGH <br /> PERSONALITY
                 </h2>
                 <Link href="/navigation">
