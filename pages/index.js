@@ -33,7 +33,7 @@ export default function Home() {
             </main>
 
             <footer className={styles.footer}>
-                <h2>NOT BIOLOGY</h2>
+                <h2 className={styles.title}>NOT BIOLOGY</h2>
             </footer>
         </div>
     )
