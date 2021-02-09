@@ -14,13 +14,13 @@ export default function Home() {
             </Head>
 
             <header>
-                <h2 className={styles.title}>
+                <h2>
                     GENDER THROUGH <br /> PERSONALITY
                 </h2>
                 <Link href="/navigation">
                     <Image
                         className={styles.star}
-                        src="/star.svg"
+                        src="/star-home.svg"
                         alt=""
                         width={30.58}
                         height={30.07}
@@ -33,7 +33,7 @@ export default function Home() {
             </main>
 
             <footer className={styles.footer}>
-                <h2 className={styles.title}>NOT BIOLOGY</h2>
+                <h2>NOT BIOLOGY</h2>
             </footer>
         </div>
     )

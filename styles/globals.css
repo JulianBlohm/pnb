@@ -13,3 +13,16 @@ a {
 * {
   box-sizing: border-box;
 }
+
+h2 {
+  font-size: 20px;
+  font-weight: 500;
+  margin: 0;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding: 20px 17px 34px 17px;
+}
