@@ -26,3 +26,10 @@ header {
   align-items: flex-start;
   padding: 20px 17px 34px 17px;
 }
+
+footer {
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+  padding: 48px 16px 24px 16px;
+}
