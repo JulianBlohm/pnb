@@ -1,4 +1,4 @@
-import styles from '../styles/Stories.module.css'
+import styles from '../styles/Imprint.module.css'
 import Link from 'next/link'
 import Image from 'next/image'
 
@@ -12,7 +12,7 @@ export default function Stories() {
                 <Link href="/navigation">
                     <Image
                         className={styles.star}
-                        src="/star.svg"
+                        src="/star-home.svg"
                         alt=""
                         width={30.58}
                         height={30.07}
@@ -21,17 +21,17 @@ export default function Stories() {
             </header>
 
             <main className={styles.main}>
-                <h1>Imprint</h1>
-                <h3>Gestaltung:</h3>
-                <ul>
+                <h1 className={styles.h1}>Imprint</h1>
+                <h3 className={styles.h3}>Gestaltung:</h3>
+                <ul className={styles.ul}>
                     <li>Anna Wank</li>
                     <li>Annika Halbsgut</li>
                     <li>Johanna Flachsenberg</li>
                     <li>Josefine Schleberger</li>
                 </ul>
 
-                <h3>Development:</h3>
-                <ul>
+                <h3 className={styles.h3}>Development:</h3>
+                <ul className={styles.ul}>
                     <li>Julian Blohm</li>
                 </ul>
 
