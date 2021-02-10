@@ -1,0 +1,58 @@
+.header {
+    position: fixed;
+    top: 0;
+    background: white;
+}
+
+.h1 {
+    color: var(--secondary-color);
+    margin: 0 29px 37px 29px;
+}
+
+.main {
+    padding: 120px 0 0 0;
+}
+
+.ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: grid;
+}
+
+.ul li {
+    display: grid;
+    place-items: center;
+    height: 130px;
+    width: 100%;
+    font-size: 20px;
+    color: white;
+}
+
+.story1 {
+    background: var(--story_color_1);
+}
+
+.story2 {
+    background: var(--story_color_2);
+}
+
+.story3 {
+    background: var(--story_color_3);
+}
+
+.story4 {
+    background: var(--story_color_4);
+}
+
+.story5 {
+    background: var(--story_color_5);
+}
+
+.story6 {
+    background: var(--story_color_6);
+}
+
+.footer {
+    position: relative;
+}

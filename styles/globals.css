@@ -50,7 +50,6 @@ footer {
     justify-content: flex-end;
     align-items: flex-end;
     padding: 48px 16px 24px 16px;
-    width: 100%;
     max-width: 750px;
     margin: 0 auto;
     width: 100vw;
@@ -60,4 +59,12 @@ footer {
     --primary-color: #60f4be;
     --secondary-color: #4e008e;
     --orange: #F93A06;
+    --story_color_1: #BCAC9F;
+    --story_color_2: #F93A06;
+    --story_color_3: #660425;
+    --story_color_4: #FF00C1;
+    --story_color_5: #4E008E;
+    --story_color_6: #60f4be;
+
+
 }
