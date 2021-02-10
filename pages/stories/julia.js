@@ -2,7 +2,7 @@ import styles from '../../styles/Story.module.css'
 import Link from 'next/link'
 import Image from 'next/image'
 
-export default function Ricardo() {
+export default function Julia() {
     return (
         <div className={styles.container}>
             <header>
@@ -12,7 +12,7 @@ export default function Ricardo() {
                 <Link href="/navigation">
                     <Image
                         className={styles.star}
-                        src="/star-substory.svg"
+                        src="/star-substory-orange.svg"
                         alt=""
                         width={30.58}
                         height={30.07}
@@ -21,7 +21,7 @@ export default function Ricardo() {
             </header>
 
             <main className={styles.main}>
-                <h1 className={styles.h1_story1}>Ricardo</h1>
+                <h1 className={styles.h1_story2}>Julia</h1>
                 <p>
                     Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
                     Aenean commodo ligula eget dolor. Aenean massa. Cum sociis
@@ -45,7 +45,7 @@ export default function Ricardo() {
                 </p>
             </main>
 
-            <a href="/stories" className={styles.external_link_story1}>
+            <a href="/stories" className={styles.external_link_story2}>
                 <Image src="/back-arrow.svg" alt="" width={18} height={20} />{' '}
                 back
             </a>

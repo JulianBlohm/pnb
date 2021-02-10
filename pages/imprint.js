@@ -2,7 +2,7 @@ import styles from '../styles/Imprint.module.css'
 import Link from 'next/link'
 import Image from 'next/image'
 
-export default function Stories() {
+export default function Imprint() {
     return (
         <div className={styles.container}>
             <header>
