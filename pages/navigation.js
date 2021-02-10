@@ -5,7 +5,7 @@ import Image from 'next/image'
 export default function Navigation() {
     return (
         <div className={styles.container}>
-            <header>
+            <header className={styles.header}>
                 <Link href="/navigation">
                     <Image
                         className={styles.star}
@@ -17,7 +17,7 @@ export default function Navigation() {
                 </Link>
             </header>
 
-            <main className={styles.main}>
+            <nav className={styles.nav}>
                 <ul className={styles.ul}>
                     <li>home</li>
                     <li>about</li>
@@ -25,7 +25,7 @@ export default function Navigation() {
                     <li>templates</li>
                     <li>action</li>
                 </ul>
-            </main>
+            </nav>
 
             <footer className={styles.footer}>
                 <a

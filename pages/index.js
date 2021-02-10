@@ -1,4 +1,3 @@
-import Head from 'next/head'
 import Image from 'next/image'
 import Link from 'next/link'
 
@@ -7,12 +6,6 @@ import styles from '../styles/Home.module.css'
 export default function Home() {
     return (
         <div className={styles.container}>
-            <Head>
-                <title>P not b</title>
-                <link rel="icon" href="/favicon.ico" />
-                <link rel="stylesheet" href="/fonts/fonts.css" />
-            </Head>
-
             <header className={styles.header}>
                 <h2>
                     GENDER THROUGH <br /> PERSONALITY

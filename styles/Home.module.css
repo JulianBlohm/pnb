@@ -1,21 +1,3 @@
-.main {
-    position: relative;
-    z-index: 0;
-}
-
-.header {
-    position: absolute;
-    top: 0;
-    z-index: 1;
-    width: 100vw;
-}
-
-.footer {
-    position: absolute;
-    bottom: 0;
-    z-index: 1;
-    width: 100vw;
-}
 
 .gif {
     width: auto;

@@ -29,6 +29,15 @@ header {
     width: 100%;
     max-width: 750px;
     margin: 0 auto;
+    position: absolute;
+    top: 0;
+    z-index: 1;
+    width: 100vw;
+}
+
+main {
+    position: relative;
+    z-index: 0;
 }
 
 footer {
@@ -39,9 +48,13 @@ footer {
     width: 100%;
     max-width: 750px;
     margin: 0 auto;
+    position: absolute;
+    bottom: 0;
+    z-index: 1;
+    width: 100vw;
 }
 
 :root {
-    --primary-color: #60F4BE;
-    --secondary-color: #4E008E;
+    --primary-color: #60f4be;
+    --secondary-color: #4e008e;
 }
