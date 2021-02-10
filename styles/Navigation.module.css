@@ -25,6 +25,9 @@
     display: flex;
     justify-content: space-around;
     font-size: 13px;
+    position: absolute;
+    bottom: 0;
+    z-index: 1;
 }
 
 .container {

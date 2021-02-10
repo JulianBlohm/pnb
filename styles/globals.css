@@ -15,6 +15,11 @@ a {
     box-sizing: border-box;
 }
 
+h1 {
+    font-size: 25px;
+    font-weight: 500;
+}
+
 h2 {
     font-size: 20px;
     font-weight: 400;
@@ -48,13 +53,11 @@ footer {
     width: 100%;
     max-width: 750px;
     margin: 0 auto;
-    position: absolute;
-    bottom: 0;
-    z-index: 1;
     width: 100vw;
 }
 
 :root {
     --primary-color: #60f4be;
     --secondary-color: #4e008e;
+    --orange: #F93A06;
 }

@@ -1,18 +1,18 @@
-import styles from '../styles/Navigation.module.css'
+import styles from '../styles/About.module.css'
 import Link from 'next/link'
 import Image from 'next/image'
 
 export default function About() {
     return (
         <div className={styles.container}>
-            <header>
+            <header className={styles.header}>
                 <h2>
                     GENDER THROUGH <br /> PERSONALITY
                 </h2>
                 <Link href="/navigation">
                     <Image
                         className={styles.star}
-                        src="/star.svg"
+                        src="/star-about.svg"
                         alt=""
                         width={30.58}
                         height={30.07}
@@ -21,7 +21,7 @@ export default function About() {
             </header>
 
             <main className={styles.main}>
-                <h1>about</h1>
+                <h1 className={styles.h1}>about</h1>
                 <p>
                     The project „gender through personality not biology“ was
                     created by Josefine, Annika, Johanna, and Anna during a
@@ -38,14 +38,16 @@ export default function About() {
                 </p>
             </main>
 
+            <a
+                href="https://www.instagram.com/genderthroughpersonality/"
+                target="_blank"
+                rel="noopener noreferrer"
+                className={styles.external_link}
+            >
+                Find us on Instagram!
+            </a>
+
             <footer className={styles.footer}>
-                <a
-                    href="https://www.instagram.com/genderthroughpersonality/"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                >
-                    Find us on Instagram!
-                </a>
                 <h2>NOT BIOLOGY</h2>
             </footer>
         </div>
