@@ -19,11 +19,11 @@ export default function Navigation() {
 
             <nav className={styles.nav}>
                 <ul className={styles.ul}>
-                    <li>home</li>
-                    <li>about</li>
-                    <li>stories</li>
-                    <li>templates</li>
-                    <li>action</li>
+                    <li><Link href="/">home</Link></li>
+                    <li><Link href="/about">about</Link></li>
+                    <li><Link href="/stories">stories</Link></li>
+                    <li><Link href="/templates">templates</Link></li>
+                    <li><Link href="/action">action</Link></li>
                 </ul>
             </nav>
 
