@@ -13,7 +13,7 @@ export default function Templates() {
                 <Link href="/navigation">
                     <Image
                         className={styles.star}
-                        src="/star.svg"
+                        src="/star-templates.svg"
                         alt=""
                         width={30.58}
                         height={30.07}
@@ -22,7 +22,7 @@ export default function Templates() {
             </header>
 
             <main className={styles.main}>
-                <h1>templates</h1>
+                <h1 className={styles.h1}>templates</h1>
                 <p>
                     Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
                     Aenean commodo ligula eget dolor. Aenean massa. Cum sociis
