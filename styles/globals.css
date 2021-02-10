@@ -41,6 +41,7 @@ footer {
     margin: 0 auto;
 }
 
-.container {
-    max-width: 750px;
+:root {
+    --primary-color: #60F4BE;
+    --secondary-color: #4E008E;
 }
