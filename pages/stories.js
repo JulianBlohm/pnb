@@ -61,7 +61,7 @@ export default function Stories() {
                 className={styles.external_link}
                 href="mailto:personalitynotbiology@gmx.de"
             >
-                add your story
+                <span className={styles.span}>add your story</span>
                 <Image
                     classname={styles.plus_icon}
                     src="/plus-stories.svg"

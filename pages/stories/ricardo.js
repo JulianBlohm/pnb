@@ -47,7 +47,7 @@ export default function Ricardo() {
 
             <a href="/stories" className={styles.external_link_story1}>
                 <Image src="/back-arrow.svg" alt="" width={18} height={20} />{' '}
-                back
+                <span className={styles.span}>back</span>
             </a>
 
             <footer className={styles.footer}>

@@ -55,7 +55,7 @@ export default function Templates() {
                 href="https://drive.google.com/drive/u/1/folders/1_hz83H4HOpmodf2FhJsCVsNrXUyc1RkE"
                 target="_blank"
             >
-                download
+                <span className={styles.span}>download</span>
                 <Image
                     src="/arrow-down- templates.svg"
                     width={12}
