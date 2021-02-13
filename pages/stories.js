@@ -57,6 +57,19 @@ export default function Stories() {
                 </nav>
             </main>
 
+            <a
+                className={styles.external_link}
+                href="mailto:personalitynotbiology@gmx.de"
+            >
+                add your story
+                <Image
+                    classname={styles.plus_icon}
+                    src="/plus-stories.svg"
+                    width={10.81}
+                    height={10.63}
+                />
+            </a>
+
             <footer className={styles.footer}>
                 <h2>NOT BIOLOGY</h2>
             </footer>
