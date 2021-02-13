@@ -2,7 +2,6 @@ import styles from '../styles/Templates.module.css'
 import Link from 'next/link'
 import Image from 'next/image'
 
-
 export default function Templates() {
     return (
         <div className={styles.container}>
@@ -29,13 +28,20 @@ export default function Templates() {
                     natoque penatibus et magnis dis parturient montes, nascetur
                     ridiculus mus.
                 </p>
-                <a
-                    href="https://drive.google.com/drive/folders/1rVCvCXyPwiHeuuxqdQrEyXKKzr1T5ni4"
-                    target="_blank"
-                >
-                    download
-                </a>
             </main>
+
+            <a  
+                className={styles.external_link}
+                href="https://drive.google.com/drive/u/1/folders/1_hz83H4HOpmodf2FhJsCVsNrXUyc1RkE"
+                target="_blank"
+            >
+                download
+                <Image
+                    src="/arrow-down- templates.svg"
+                    width={12}
+                    height={7.41}
+                />
+            </a>
 
             <footer className={styles.footer}>
                 <h2>NOT BIOLOGY</h2>
