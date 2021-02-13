@@ -23,7 +23,6 @@ export default function Navigation() {
                     <li><Link href="/about">about</Link></li>
                     <li><Link href="/stories">stories</Link></li>
                     <li><Link href="/templates">templates</Link></li>
-                    <li><Link href="/action">action</Link></li>
                 </ul>
             </nav>
 
