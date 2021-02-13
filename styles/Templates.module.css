@@ -13,6 +13,12 @@
     padding: 120px 29px 0 29px;
 }
 
+.grid {
+    display: grid;
+    grid-gap: 30px;
+    margin-top: 50px;
+}
+
 .external_link {
     background: var(--story_color_4);
     color: white;

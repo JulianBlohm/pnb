@@ -28,9 +28,29 @@ export default function Templates() {
                     natoque penatibus et magnis dis parturient montes, nascetur
                     ridiculus mus.
                 </p>
+                <div className={styles.grid}>
+                    <Image
+                        src="/Sticker_türkis.png"
+                        width={318}
+                        height={318}
+                        layout="fixed"
+                    />
+                    <Image
+                        src="/Sticker_rot.png"
+                        width={318}
+                        height={318}
+                        layout="fixed"
+                    />
+                    <Image
+                        src="/Sticker_beige.png"
+                        width={318}
+                        height={318}
+                        layout="fixed"
+                    />
+                </div>
             </main>
 
-            <a  
+            <a
                 className={styles.external_link}
                 href="https://drive.google.com/drive/u/1/folders/1_hz83H4HOpmodf2FhJsCVsNrXUyc1RkE"
                 target="_blank"
