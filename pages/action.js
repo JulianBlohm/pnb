@@ -13,7 +13,7 @@ export default function Action() {
                 <Link href="/navigation">
                     <Image
                         className={styles.star}
-                        src="/star.svg"
+                        src="/star-action.svg"
                         alt=""
                         width={30.58}
                         height={30.07}
@@ -22,7 +22,7 @@ export default function Action() {
             </header>
 
             <main className={styles.main}>
-                <h1>action</h1>
+                <h1 className={styles.h1}>action</h1>
                 <p>
                     Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
                     Aenean commodo ligula eget dolor. Aenean massa. Cum sociis

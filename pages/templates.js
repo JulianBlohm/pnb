@@ -2,7 +2,6 @@ import styles from '../styles/Templates.module.css'
 import Link from 'next/link'
 import Image from 'next/image'
 
-
 export default function Templates() {
     return (
         <div className={styles.container}>
@@ -13,7 +12,7 @@ export default function Templates() {
                 <Link href="/navigation">
                     <Image
                         className={styles.star}
-                        src="/star.svg"
+                        src="/star-templates.svg"
                         alt=""
                         width={30.58}
                         height={30.07}
@@ -22,20 +21,46 @@ export default function Templates() {
             </header>
 
             <main className={styles.main}>
-                <h1>templates</h1>
+                <h1 className={styles.h1}>templates</h1>
                 <p>
                     Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
                     Aenean commodo ligula eget dolor. Aenean massa. Cum sociis
                     natoque penatibus et magnis dis parturient montes, nascetur
                     ridiculus mus.
                 </p>
-                <a
-                    href="https://drive.google.com/drive/folders/1rVCvCXyPwiHeuuxqdQrEyXKKzr1T5ni4"
-                    target="_blank"
-                >
-                    download
-                </a>
+                <div className={styles.grid}>
+                    <Image
+                        src="/Sticker_türkis.png"
+                        width={318}
+                        height={318}
+                        layout="fixed"
+                    />
+                    <Image
+                        src="/Sticker_rot.png"
+                        width={318}
+                        height={318}
+                        layout="fixed"
+                    />
+                    <Image
+                        src="/Sticker_beige.png"
+                        width={318}
+                        height={318}
+                        layout="fixed"
+                    />
+                </div>
             </main>
+            <a
+                className={styles.external_link}
+                href="https://drive.google.com/drive/u/1/folders/1_hz83H4HOpmodf2FhJsCVsNrXUyc1RkE"
+                target="_blank"
+            >
+                <span className={styles.span}>download</span>
+                <Image
+                    src="/arrow-down- templates.svg"
+                    width={12}
+                    height={7.41}
+                />
+            </a>
 
             <footer className={styles.footer}>
                 <h2>NOT BIOLOGY</h2>

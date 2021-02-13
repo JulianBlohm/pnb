@@ -1,12 +1,15 @@
 import styles from '../styles/Navigation.module.css'
 import Link from 'next/link'
 import Image from 'next/image'
+import { useRouter } from 'next/router'
 
 export default function Navigation() {
+    const router = useRouter()
+
     return (
         <div className={styles.container}>
-            <header>
-                <Link href="/navigation">
+            <header className={styles.header}>
+                <a onClick={() => router.back()}>
                     <Image
                         className={styles.star}
                         src="/x.svg"
@@ -14,18 +17,25 @@ export default function Navigation() {
                         width={19.37}
                         height={18.32}
                     />
-                </Link>
+                </a>
             </header>
 
-            <main className={styles.main}>
+            <nav className={styles.nav}>
                 <ul className={styles.ul}>
-                    <li>home</li>
-                    <li>about</li>
-                    <li>stories</li>
-                    <li>templates</li>
-                    <li>action</li>
+                    <li>
+                        <Link href="/">home</Link>
+                    </li>
+                    <li>
+                        <Link href="/about">about</Link>
+                    </li>
+                    <li>
+                        <Link href="/stories">stories</Link>
+                    </li>
+                    <li>
+                        <Link href="/templates">templates</Link>
+                    </li>
                 </ul>
-            </main>
+            </nav>
 
             <footer className={styles.footer}>
                 <a

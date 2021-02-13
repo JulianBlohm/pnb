@@ -1,8 +1,8 @@
-import styles from '../styles/Stories.module.css'
+import styles from '../styles/Privacy.module.css'
 import Link from 'next/link'
 import Image from 'next/image'
 
-export default function Stories() {
+export default function Privacy() {
     return (
         <div className={styles.container}>
             <header>
@@ -12,7 +12,7 @@ export default function Stories() {
                 <Link href="/navigation">
                     <Image
                         className={styles.star}
-                        src="/star.svg"
+                        src="/star-home.svg"
                         alt=""
                         width={30.58}
                         height={30.07}
@@ -21,15 +21,15 @@ export default function Stories() {
             </header>
 
             <main className={styles.main}>
-                <h1>Privacy</h1>
+                <h1 className={styles.h1}>Privacy</h1>
                 <article>
-                    <p>
+                    <p className={styles.p}>
                         Verantwortliche Stelle im Sinne der Datenschutzgesetze,
                         insbe- sondere der EU-Datenschutzgrundverordnung
                         (DSGVO), ist: Personality not Biology GbR
                     </p>
 
-                    <p>
+                    <p className={styles.p}>
                         {' '}
                         Ihre Betroffenenrechte: Unter den angegebenen
                         Kontaktdaten können Sie jederzeit fol-gende Rechte
@@ -50,7 +50,7 @@ export default function Stories() {
                         https://www.bfdi.bund.de/DE/Infothek/Anschriften_Links/anschriften_links-node.html.
                     </p>
 
-                    <p>
+                    <p className={styles.p}>
                         Zwecke der Datenverarbeitung durch die verantwortliche
                         Stelle und Dritte: Wir verarbeiten Ihre
                         personenbezogenen Daten nur für unser Story-Formular,
@@ -59,7 +59,7 @@ export default function Stories() {
                         Daten an Dritte findet nicht statt.
                     </p>
 
-                    <p>
+                    <p className={styles.p}>
                         Löschung bzw. Sperrung der Daten: Wir halten uns an die
                         Grundsätze der Datenvermeidung und Datensparsamkeit. Wir
                         speichern Ihre personenbezogenen Daten daher nur so
@@ -72,7 +72,7 @@ export default function Stories() {
                         oder gelöscht.
                     </p>
 
-                    <p>
+                    <p className={styles.p}>
                         Story-Formular: Auf Grundlage Ihrer ausdrücklich
                         erteilten Einwilligung, übersenden wir Ihnen weitere
                         Informationen und Interview-Fragen per E-Mail an Ihre
@@ -93,7 +93,7 @@ export default function Stories() {
                         personalitynotbiology@gmx.de mitteilen.
                     </p>
 
-                    <p>
+                    <p className={styles.p}>
                         Änderung unserer Datenschutzbestimmungen: Wir behalten
                         uns vor, diese Datenschutzerklärung anzupassen, damit
                         sie stets den aktuellen rechtlichen Anforderungen
