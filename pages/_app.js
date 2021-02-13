@@ -8,7 +8,7 @@ function MyApp({ Component, pageProps }) {
             <Head>
                 <title>P not b</title>
                 <link rel="icon" href="/favicon.ico" />
-                <link rel="stylesheet" href="/fonts/fonts.css" />
+                <link rel="stylesheet" href="https://use.typekit.net/qef7evb.css"/>
             </Head>
             <Component {...pageProps} />
         </>
