@@ -49,7 +49,6 @@ export default function Templates() {
                     />
                 </div>
             </main>
-
             <a
                 className={styles.external_link}
                 href="https://drive.google.com/drive/u/1/folders/1_hz83H4HOpmodf2FhJsCVsNrXUyc1RkE"
