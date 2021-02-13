@@ -36,8 +36,10 @@ export default function Stories() {
                         <li className={styles.story1}>
                             <Link href="/stories/ricardo">Ricardo</Link>
                         </li>
-                        <li className={styles.story2}>
-                            <Link href="/stories/julia">Julia</Link>
+                        <li>
+                            <Link href="/stories/julia">
+                                <a className={styles.story2}>Julia</a>
+                            </Link>
                         </li>
                         <li className={styles.story3}>
                             <Link href="/ricardo">Ricardo</Link>

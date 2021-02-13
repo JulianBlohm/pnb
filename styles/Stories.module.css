@@ -20,7 +20,7 @@
     display: grid;
 }
 
-.ul li {
+.ul a {
     display: grid;
     place-items: center;
     height: 130px;
