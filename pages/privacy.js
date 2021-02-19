@@ -16,6 +16,7 @@ export default function Privacy() {
                         alt=""
                         width={30.58}
                         height={30.07}
+                        loading="eager"
                     />
                 </Link>
             </header>

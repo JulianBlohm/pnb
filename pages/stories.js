@@ -25,6 +25,7 @@ export default function Stories() {
                         alt=""
                         width={30.58}
                         height={30.07}
+                        loading="eager"
                     />
                 </Link>
             </header>
@@ -67,6 +68,7 @@ export default function Stories() {
                     src="/plus-stories.svg"
                     width={10.81}
                     height={10.63}
+                    loading="eager"
                 />
             </a>
 

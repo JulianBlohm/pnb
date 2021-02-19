@@ -17,6 +17,7 @@ export default function Home() {
                         alt=""
                         width={30.58}
                         height={30.07}
+                        loading="eager"
                     />
                 </Link>
             </header>
