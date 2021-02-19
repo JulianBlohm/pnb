@@ -22,7 +22,17 @@ export default function Home() {
             </header>
 
             <main className={styles.main}>
-                <Image className={styles.gif} src="/Band_1.gif" alt="" width="750" height="1334" />
+                <div className={styles.gif_container}>
+                    <Image
+                        className={styles.gif}
+                        src="/Band_1.gif"
+                        alt=""
+                        width="750"
+                        height="1334"
+                        layout="responsive"
+                        sizes="(max-width: 414px) 414px"
+                    />
+                </div>
             </main>
 
             <footer className={styles.footer}>

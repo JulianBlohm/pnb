@@ -1,7 +1,7 @@
 
-.gif {
-    width: auto;
-    max-height: 100vh;
+.gif_container {
+    max-width: 414px;
+    margin: 0 auto;
 }
 
 .footer {
