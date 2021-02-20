@@ -36,12 +36,15 @@ export default function Julia() {
                 <p>
                     Due to the fact that I was raised on the countryside of
                     Bavaria, I was raised with specific binary gender roles that
-                    were biased on the biology. I personally let go of these
-                    fixed roles and think of gender as something more fluid,
-                    detached from somebody’s genitals. Besides, I am surrounded
-                    by people like my partner and friends who all are sensitive
-                    and openminded when it comes to gender roles within the
-                    heteronormative society.
+                    were biased on the biology.{' '}
+                    <span className={styles.highlight2}>
+                        I personally let go of these fixed roles and think of
+                        gender as something more fluid, detached from somebody’s
+                        genitals.
+                    </span>{' '}
+                    Besides, I am surrounded by people like my partner and
+                    friends who all are sensitive and openminded when it comes
+                    to gender roles within the heteronormative society.
                 </p>
                 <p>
                     I express myself the most through my appearance in person,
@@ -57,24 +60,34 @@ export default function Julia() {
                     live in taught me. But it’s so much more! Everybody should
                     learn something from the “contrary gender”. There isn’t
                     something like “the” man and “the” woman. These roles are
-                    made up from society. I think the society thinks as a
-                    CIS-woman I have some sort of a “mother role” since I have a
-                    uterus. I also often find myself in a position, where I have
-                    to carry out the care work in a heterosexual partnership or
-                    a male friend group, because I was raised differently. In
+                    made up from society.{' '}
+                    <span className={styles.highlight2}>
+                        I think the society thinks as a CIS-woman I have some
+                        sort of a “mother role” since I have a uterus.
+                    </span>{' '}
+                    I also often find myself in a position, where I have to
+                    carry out the care work in a heterosexual partnership or a
+                    male friend group, because I was raised differently. In
                     these situations, I try not to fall in some kind of motherly
                     behavior. I try to be self-critical and not to silently
-                    fulfill my biological and social role but to analyze and
-                    take notice of these boxes I get stuck into.
+                    fulfill my biological and social role but to analyze and{' '}
+                    <span className={styles.highlight2}>
+                        take notice of these boxes I get stuck into.
+                    </span>{' '}
                 </p>
                 <p>
-                    It would be great if we could overcome binary gender and
-                    accept the fact, there is a spectrum of gender . I think it
-                    is a thoughtful and nice way to describe your gender through
-                    personality not biology. It’s ok not to fit in the given
-                    gender roles but it’s also ok if you do. Try to be yourself
-                    and not some made up stereotype. Free yourself from somebody
-                    else’s expectations.
+                    It would be great if we could overcome binary gender and{' '}
+                    <span className={styles.highlight2}>
+                        accept the fact, there is a spectrum of gender.
+                    </span>{' '}
+                    I think it is a thoughtful and nice way to describe your
+                    gender through personality not biology.{' '}
+                    <span className={styles.highlight2}>
+                        It’s ok not to fit in the given gender roles but it’s
+                        also ok if you do.
+                    </span>{' '}
+                    Try to be yourself and not some made up stereotype. Free
+                    yourself from somebody else’s expectations.
                 </p>
             </main>
 

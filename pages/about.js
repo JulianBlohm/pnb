@@ -45,21 +45,27 @@ export default function About() {
                     personality not biology.
                 </p>
                 <p>
-                    Gender through personality not biology shares the stories of
-                    people who often feel let down by social norms and standards
-                    related to their given gender and are creating their own
-                    identity. With our Gender Journeys, we hope to inspire and
-                    encourage people to question their own social role and shine
-                    through their personality, without pink or blue labels.
+                    <span className={styles.highlight}>
+                        Gender through personality not biology
+                    </span>{' '}
+                    shares the stories of people who often feel let down by
+                    social norms and standards related to their given gender and
+                    are creating their own identity. With our Gender Journeys,
+                    we hope to inspire and encourage people to question their
+                    own social role and shine through their personality, without
+                    pink or blue labels.
                 </p>
                 <p>
-                    Behind Gender through Personality not Biology are four
-                    design students from Hamburg who are currently on their own
-                    gender journey as well. While they are in the middle of
-                    reshaping their own boxes, they have come together to create
-                    this project to give people a platform that encourages,
-                    inspires and creates awareness to stand up for gender
-                    freedom.
+                    Behind{' '}
+                    <span className={styles.highlight}>
+                        Gender through personality not biology
+                    </span>{' '}
+                    are four design students from Hamburg who are currently on
+                    their own gender journey as well. While they are in the
+                    middle of reshaping their own boxes, they have come together
+                    to create this project to give people a platform that
+                    encourages, inspires and creates awareness to stand up for
+                    gender freedom.
                 </p>
             </main>
 

@@ -52,16 +52,16 @@ export default function Stories() {
                             </Link>
                         </li>
                         <li className={styles.story3}>
-                            <Link href="/marco">Marco</Link>
+                            <Link href="/stories/marco">Marco</Link>
                         </li>
                         <li className={styles.story4}>
-                            <Link href="/anick">Anick</Link>
+                            <Link href="/stories/anick">Anick</Link>
                         </li>
                         <li className={styles.story5}>
-                            <Link href="/loco">Loco Ninja</Link>
+                            <Link href="/stories/loco">Loco Ninja</Link>
                         </li>
                         <li className={styles.story6}>
-                            <Link href="/moira">Moira</Link>
+                            <Link href="/stories/moira">Moira</Link>
                         </li>
                     </ul>
                 </nav>

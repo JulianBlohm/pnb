@@ -12,7 +12,7 @@ export default function Marco() {
                 <Link href="/navigation">
                     <Image
                         className={styles.star}
-                        src="/star-substory-orange.svg"
+                        src="/star-action.svg"
                         alt=""
                         width={30.58}
                         height={30.07}
@@ -22,15 +22,18 @@ export default function Marco() {
             </header>
 
             <main className={styles.main}>
-                <h1 className={styles.h1_story2}>Marco</h1>
+                <h1 className={styles.h1_story3}>Marco</h1>
                 <p>
-                    &quot;Verily, with hardship there is ease&quot; is the ayat
-                    (verse) from the qu&#39;ran that I often felt like it
-                    described my situation. I was born in 1990 and asigned
-                    female at birth. Basically I knew my gender when I was three
-                    years old and it never changed. But it took me 20 more years
-                    to finally learn about the word transgender. I had to fight
-                    a long fight to be able to just say that I am a man.
+                    <span className={styles.highlight3}>
+                        &quot;Verily, with hardship there is ease&quot; is the
+                        ayat (verse) from the qu&#39;ran that I often felt like
+                        it described my situation.
+                    </span>{' '}
+                    I was born in 1990 and asigned female at birth. Basically I
+                    knew my gender when I was three years old and it never
+                    changed. But it took me 20 more years to finally learn about
+                    the word transgender. I had to fight a long fight to be able
+                    to just say that I am a man.
                 </p>
                 <p>
                     Gender is a category that coresponds with certain identity
@@ -43,11 +46,14 @@ export default function Marco() {
                     fitting into gender categories but I would just say that my
                     gender identity is something epigenetic that I was mostly
                     born with and that was already an irreversible part of my
-                    brain. I also believe that certain aspects of gender also
-                    exist outside of society but I think we would see them like
-                    the size of our hands or the shapes of our ears as not
-                    important, if society wouldn&#39;t construct gender in such
-                    a rigid manner.
+                    brain. I also believe that{' '}
+                    <span className={styles.highlight3}>
+                        certain aspects of gender also exist outside of society
+                        but I think we would see them like the size of our hands
+                        or the shapes of our ears as not important
+                    </span>
+                    , if society wouldn&#39;t construct gender in such a rigid
+                    manner.
                 </p>
                 <p>
                     I have a lot of social roles. As a son, as a worker, as a
@@ -61,9 +67,12 @@ export default function Marco() {
                 </p>
                 <p>
                     I express my personality by staying true to it even when it
-                    would be better to act differently and fit in. I mean,
-                    everyone wants to fit in, but when I decided to present male
-                    and fight for my right to be happy, I decided to be me.
+                    would be better to act differently and fit in.{' '}
+                    <span className={styles.highlight3}>
+                        I mean, everyone wants to fit in, but when I decided to
+                        present male and fight for my right to be happy, I
+                        decided to be me.
+                    </span>{' '}
                     People tried to construct me female, nowadays they often try
                     to push me into a non-binary category by kind of creating
                     transgender as a third gender. But I would say that since I
@@ -75,7 +84,7 @@ export default function Marco() {
                 </p>
             </main>
 
-            <a href="/stories" className={styles.external_link_story2}>
+            <a href="/stories" className={styles.external_link_story3}>
                 <Image src="/back-arrow.svg" alt="" width={18} height={20} />{' '}
                 back
             </a>
