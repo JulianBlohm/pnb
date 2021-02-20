@@ -10,3 +10,15 @@
     z-index: 1;
 }
 
+.textContainer {
+    position: absolute;
+    top: 115px;
+    padding: 0 29px;
+}
+
+.h2 {
+    color: var(--story_color_4);
+    font-size: 21px;
+    font-weight: 700;
+}
+
