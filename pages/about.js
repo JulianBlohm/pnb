@@ -24,18 +24,42 @@ export default function About() {
             <main className={styles.main}>
                 <h1 className={styles.h1}>about</h1>
                 <p>
-                    The project „gender through personality not biology“ was
-                    created by Josefine, Annika, Johanna, and Anna during a
-                    brand design course at HAW Hamburg. Using the slogan „gender
-                    through personality not biology“ we want to Lorem ipsum
-                    dolor sit amet, consectetuer adipiscing elit. Aenean commodo
-                    ligula eget dolor. Aenean massa. Cum sociis natoque
-                    penatibus et magnis dis parturient montes, nascetur
-                    ridiculus mus. Donec quam felis, ultricies nec, pellentesque
-                    eu, pretium quis, sem. Nulla consequat massa quis enim.
-                    Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
-                    Aenean commodo ligula eget dolor. Aenean massa. Cum sociis
-                    natoque penatibus et magnis dis parturient montes, nascetur.
+                    Gender roles this, gender labels that. We want to free
+                    ourselves from acquired gender and make room for our own
+                    gender identity putting the person behind the gender at its
+                    core.
+                </p>
+                <p>
+                    This one goes out to all the men who want to wear make-up,
+                    or maybe not. To all people who "throw like a girl". To all
+                    those annoyed by being asked whether they are male or
+                    female. To all who have been laughed at for being different.
+                    This goes out to all those who refuse to be told by society
+                    how they should behave based on their given gender. To all
+                    who are ready to bust out of their boxes, reshape them or
+                    melt them down. Or to all who are doing so already. This
+                    goes out to all who break down gender roles and think beyond
+                    pink and blue. Or want to do so. Make room for our own
+                    definitions of identities that are not based on gender. This
+                    one goes out to all who want to define gender through
+                    personality not biology.
+                </p>
+                <p>
+                    Gender through personality not biology shares the stories of
+                    people who often feel let down by social norms and standards
+                    related to their given gender and are creating their own
+                    identity. With our Gender Journeys, we hope to inspire and
+                    encourage people to question their own social role and shine
+                    through their personality, without pink or blue labels.
+                </p>
+                <p>
+                    Behind Gender through Personality not Biology are four
+                    design students from Hamburg who are currently on their own
+                    gender journey as well. While they are in the middle of
+                    reshaping their own boxes, they have come together to create
+                    this project to give people a platform that encourages,
+                    inspires and creates awareness to stand up for gender
+                    freedom.
                 </p>
             </main>
 
