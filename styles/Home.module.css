@@ -7,7 +7,7 @@
 
 .gif_unten {
     position: absolute;
-    top: 450px;
+    bottom: 55px;
     z-index: -1;
 }
 
