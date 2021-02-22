@@ -9,6 +9,13 @@
     margin: 0 0 38px 0;
 }
 
+.h2 {
+    font-family: nimbus-sans-extended,sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    margin: 20px 0 5px 0;
+}
+
 .main {
     padding: 120px 29px 0 29px;
 }
@@ -16,4 +23,9 @@
 .p {
     font-size: 12px;
     margin: 0 0 12px 0;
+}
+
+.ul{
+    font-family: "Inktrap";
+    font-size: 12px;
 }
