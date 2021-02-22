@@ -1,7 +1,12 @@
+.gif_oben {
+    position: absolute;
+    top: 0;
+    right: 0;
+}
 
-.gif_container {
-    max-width: 414px;
-    margin: 0 auto;
+.gif_unten {
+    position: absolute;
+    bottom: 50px;
 }
 
 .footer {
@@ -17,8 +22,11 @@
 }
 
 .h2 {
-    color: var(--story_color_4);
+    color: var(--story_color_6);
     font-size: 21px;
     font-weight: 700;
 }
 
+.main {
+    height: 100vh;
+}

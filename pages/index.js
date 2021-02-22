@@ -23,21 +23,34 @@ export default function Home() {
             </header>
 
             <main className={styles.main}>
-                <Image
-                    className={styles.gif}
-                    src="/Band_1.gif"
-                    alt=""
-                    width="750"
-                    height="1240"
-                />
+                <div className={styles.gif_oben}>
+                    <Image
+                        className={styles.gif}
+                        src="/oben.gif"
+                        alt=""
+                        width="150"
+                        height="200"
+                    />
+                </div>
+
                 <div className={styles.textContainer}>
                     <h2 className={styles.h2}>Hi there!</h2>
                     <p className={styles.p}>
-                        Welcome to Gender through Personality,
-                        a safe space for people who think beyond pink and blue.
-                        Come join us on an exciting journey through gender
-                        identities, gender crises and exciting personalities.
+                        Welcome to Gender through Personality, a safe space for
+                        people who think beyond pink and blue. Come join us on
+                        an exciting journey through gender identities, gender
+                        crises and exciting personalities.
                     </p>
+                </div>
+
+                <div className={styles.gif_unten}>
+                    <Image
+                        className={styles.gif}
+                        src="/unten.gif"
+                        alt=""
+                        width="750"
+                        height="450"
+                    />
                 </div>
             </main>
 
