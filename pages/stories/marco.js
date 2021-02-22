@@ -46,14 +46,14 @@ export default function Marco() {
                     fitting into gender categories but I would just say that my
                     gender identity is something epigenetic that I was mostly
                     born with and that was already an irreversible part of my
-                    brain. I also believe that{' '}
+                    brain.{' '}
                     <span className={styles.highlight3}>
-                        certain aspects of gender also exist outside of society
-                        but I think we would see them like the size of our hands
-                        or the shapes of our ears as not important
+                        I also believe that certain aspects of gender also exist
+                        outside of society but I think we would see them like
+                        the size of our hands or the shapes of our ears as not
+                        important, if society wouldn&#39;t construct gender in
+                        such a rigid manner.
                     </span>
-                    , if society wouldn&#39;t construct gender in such a rigid
-                    manner.
                 </p>
                 <p>
                     I have a lot of social roles. As a son, as a worker, as a

@@ -33,7 +33,7 @@ export default function Ricardo() {
                     sane these years. I am a gay, dark skin Mexican who happens
                     to live in a white cisgender supremacist society where if I
                     want to have a voice, I’m immediately put in a box of being
-                    rude , problematic, or arrogant. And most of the time, my
+                    rude, problematic, or arrogant. And most of the time, my
                     ethnicity takes place as well; if I’m not a rapist, I’m a
                     drug dealer. These things have shaped my journey as well,
                     and I decided not to let my voice be broken.
