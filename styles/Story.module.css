@@ -178,17 +178,4 @@
     width: 117px;
     padding: 0 19px;
 }
-.external_link_story2 {
-    background: var(--story_color_7);
-    font-size: 15px;
-    color: white;
-    font-weight: 500;
-    border-bottom-right-radius: 32px;
-    border-top-right-radius: 32px;
-    height: 42px;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    width: 117px;
-    padding: 0 19px;
-}
+
