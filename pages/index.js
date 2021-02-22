@@ -36,7 +36,7 @@ export default function Home() {
                 <div className={styles.textContainer}>
                     <h2 className={styles.h2}>Hi there!</h2>
                     <p className={styles.p}>
-                        Welcome to <nobr>Gender through Personality</nobr>, a safe space for
+                        Welcome to Gender through <span className={styles.nowrap}>Personality</span>, a safe space for
                         people who think beyond pink and blue. Come join us on
                         an exciting journey through gender identities, gender
                         crises and exciting personalities.
