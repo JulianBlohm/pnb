@@ -10,8 +10,9 @@
 }
 
 .highlight1 {
-    font-family: nimbus-sans-extended,sans-serif;
+    font-family: nimbus-sans-extended, sans-serif;
     font-weight: 400;
+    font-size: 25px;
     color: var(--story_color_1);
 }
 
@@ -21,9 +22,12 @@
 }
 
 .highlight2 {
-    font-family: nimbus-sans-extended,sans-serif;
+    font-family: nimbus-sans-extended, sans-serif;
     font-weight: 400;
+    font-size: 25px;
     color: var(--story_color_2);
+    margin: 25px 0;
+    display: block;
 }
 
 .h1_story3 {
@@ -32,9 +36,12 @@
 }
 
 .highlight3 {
-    font-family: nimbus-sans-extended,sans-serif;
+    font-family: nimbus-sans-extended, sans-serif;
     font-weight: 400;
+    font-size: 25px;
     color: var(--story_color_3);
+    margin: 25px 0;
+    display: block;
 }
 
 .h1_story4 {
@@ -43,9 +50,12 @@
 }
 
 .highlight4 {
-    font-family: nimbus-sans-extended,sans-serif;
+    font-family: nimbus-sans-extended, sans-serif;
     font-weight: 400;
+    font-size: 25px;
     color: var(--story_color_4);
+    margin: 25px 0;
+    display: block;
 }
 
 .h1_story5 {
@@ -54,9 +64,12 @@
 }
 
 .highlight5 {
-    font-family: nimbus-sans-extended,sans-serif;
+    font-family: nimbus-sans-extended, sans-serif;
     font-weight: 400;
+    font-size: 25px;
     color: var(--story_color_5);
+    margin: 25px 0;
+    display: block;
 }
 
 .h1_story6 {
@@ -65,9 +78,12 @@
 }
 
 .highlight6 {
-    font-family: nimbus-sans-extended,sans-serif;
+    font-family: nimbus-sans-extended, sans-serif;
     font-weight: 400;
+    font-size: 25px;
     color: var(--story_color_6);
+    margin: 25px 0;
+    display: block;
 }
 
 .main {

@@ -84,17 +84,15 @@ export default function Anick() {
                     who challenge the norms of their time.{' '}
                     <span className={styles.highlight4}>
                         Seeing difference on display so openly is a wonderful
-                        thing and can make you feel less alone.
+                        thing and can make you feel less alone. We need to stop
+                        policing each other's bodies.
                     </span>{' '}
                 </p>
                 <p>
-                    <span className={styles.highlight4}>
-                        We need to stop policing each other's bodies. There are
-                        uncountable ways to be exactly who you are and the only
-                        constant in life is change.
-                    </span>{' '}
-                    If the way someone else expresses their gender bothers you
-                    that much - something within needs to be addressed.
+                    There are uncountable ways to be exactly who you are and the
+                    only constant in life is change. If the way someone else
+                    expresses their gender bothers you that much - something
+                    within needs to be addressed.
                 </p>
                 <p>
                     As in an intersex person, gender has been a concept which
