@@ -22,37 +22,38 @@ export default function Home() {
                 </Link>
             </header>
 
-            <main className={styles.main}>
-                <div className={styles.gif_oben}>
-                    <Image
-                        className={styles.gif}
-                        src="/oben.gif"
-                        alt=""
-                        width="150"
-                        height="200"
-                    />
-                </div>
+            <div className={styles.gif_oben}>
+                <Image
+                    className={styles.gif}
+                    src="/oben.gif"
+                    alt=""
+                    width="150"
+                    height="200"
+                />
+            </div>
 
+            <main className={styles.main}>
                 <div className={styles.textContainer}>
                     <h2 className={styles.h2}>Hi there!</h2>
                     <p className={styles.p}>
-                        Welcome to Gender through <span className={styles.nowrap}>Personality</span>, a safe space for
-                        people who think beyond pink and blue. Come join us on
-                        an exciting journey through gender identities, gender
-                        crises and exciting personalities.
+                        Welcome to Gender through{' '}
+                        <span className={styles.nowrap}>Personality</span>, a
+                        safe space for people who think beyond pink and blue.
+                        Come join us on an exciting journey through gender
+                        identities, gender crises and exciting personalities.
                     </p>
                 </div>
-
-                <div className={styles.gif_unten}>
-                    <Image
-                        className={styles.gif}
-                        src="/unten.gif"
-                        alt=""
-                        width="750"
-                        height="450"
-                    />
-                </div>
             </main>
+
+            <div className={styles.gif_unten}>
+                <Image
+                    className={styles.gif}
+                    src="/unten.gif"
+                    alt=""
+                    width="750"
+                    height="450"
+                />
+            </div>
 
             <footer className={styles.footer}>
                 <h2>NOT BIOLOGY</h2>
