@@ -22,17 +22,16 @@ export default function Home() {
                 </Link>
             </header>
 
-            <div className={styles.gif_oben}>
-                <Image
-                    className={styles.gif}
-                    src="/oben.gif"
-                    alt=""
-                    width="150"
-                    height="200"
-                />
-            </div>
-
             <main className={styles.main}>
+                <div className={styles.gif_oben}>
+                    <Image
+                        className={styles.gif}
+                        src="/oben.gif"
+                        alt=""
+                        width="150"
+                        height="200"
+                    />
+                </div>
                 <div className={styles.textContainer}>
                     <h2 className={styles.h2}>Hi there!</h2>
                     <p className={styles.p}>
