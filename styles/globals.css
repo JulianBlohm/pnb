@@ -29,6 +29,7 @@ h2 {
 p {
     font-family: 'Inktrap';
     font-size: 20px;
+    hyphens: auto;
 }
 
 span {

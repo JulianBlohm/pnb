@@ -23,10 +23,14 @@ export default function Templates() {
             <main className={styles.main}>
                 <h1 className={styles.h1}>templates</h1>
                 <p>
-                    Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
-                    Aenean commodo ligula eget dolor. Aenean massa. Cum sociis
-                    natoque penatibus et magnis dis parturient montes, nascetur
-                    ridiculus mus.
+                    Do you remember the last ad that really pissed you off
+                    because it was sexist? Did you happen to see a commercial
+                    today in which gender roles were assigned traditionally and
+                    it made you roll your eyes? We are also fed up with these
+                    ads and would like to do something about it together! We
+                    would like to share our message with you as a template so
+                    that you can also be a part of the movement! Print it out,
+                    stick it over silly ads and go!
                 </p>
                 <div className={styles.grid}>
                     <Image

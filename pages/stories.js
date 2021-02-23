@@ -25,12 +25,22 @@ export default function Stories() {
                         alt=""
                         width={30.58}
                         height={30.07}
+                        loading="eager"
                     />
                 </Link>
             </header>
 
             <main className={styles.main}>
                 <h1 className={styles.h1}>stories</h1>
+                <p className={styles.p}>
+                    Every person is different and everyone has their own gender
+                    identity. This also means that the world is much more
+                    colourful than the traditional division in just pink for
+                    girls and blue for boys. From neon green to ultra violet or
+                    transparent, it's all there. We want to bring this to light
+                    and have asked people to share their personal gender
+                    journeys with us and the world.
+                </p>
                 <nav className={styles.nav}>
                     <ul className={styles.ul}>
                         <li className={styles.story1}>
@@ -42,16 +52,16 @@ export default function Stories() {
                             </Link>
                         </li>
                         <li className={styles.story3}>
-                            <Link href="/ricardo">Ricardo</Link>
+                            <Link href="/stories/marco">Marco</Link>
                         </li>
                         <li className={styles.story4}>
-                            <Link href="/ricardo">Ricardo</Link>
+                            <Link href="/stories/anick">Anick</Link>
                         </li>
                         <li className={styles.story5}>
-                            <Link href="/ricardo">Ricardo</Link>
+                            <Link href="/stories/loco">Loco Ninja</Link>
                         </li>
                         <li className={styles.story6}>
-                            <Link href="/ricardo">Ricardo</Link>
+                            <Link href="/stories/moira">Moira</Link>
                         </li>
                     </ul>
                 </nav>
@@ -67,6 +77,7 @@ export default function Stories() {
                     src="/plus-stories.svg"
                     width={10.81}
                     height={10.63}
+                    loading="eager"
                 />
             </a>
 

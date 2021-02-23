@@ -17,13 +17,42 @@ export default function Home() {
                         alt=""
                         width={30.58}
                         height={30.07}
+                        loading="eager"
                     />
                 </Link>
             </header>
 
             <main className={styles.main}>
-                <Image className={styles.gif} src="/Band_1.gif" alt="" width="750" height="1334" />
+                <div className={styles.gif_oben}>
+                    <Image
+                        className={styles.gif}
+                        src="/oben.gif"
+                        alt=""
+                        width="150"
+                        height="200"
+                    />
+                </div>
+                <div className={styles.textContainer}>
+                    <h2 className={styles.h2}>Hi there!</h2>
+                    <p className={styles.p}>
+                        Welcome to Gender through{' '}
+                        <span className={styles.nowrap}>Personality</span>, a
+                        safe space for people who think beyond pink and blue.
+                        Come join us on an exciting journey through gender
+                        identities, gender crises and exciting personalities.
+                    </p>
+                </div>
             </main>
+
+            <div className={styles.gif_unten}>
+                <Image
+                    className={styles.gif}
+                    src="/unten.gif"
+                    alt=""
+                    width="750"
+                    height="450"
+                />
+            </div>
 
             <footer className={styles.footer}>
                 <h2>NOT BIOLOGY</h2>

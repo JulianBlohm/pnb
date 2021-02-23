@@ -16,6 +16,7 @@ export default function Navigation() {
                         alt=""
                         width={19.37}
                         height={18.32}
+                        loading="eager"
                     />
                 </a>
             </header>
