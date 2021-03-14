@@ -3,14 +3,6 @@ import Link from 'next/link'
 import Image from 'next/image'
 
 export default function Stories() {
-    const stories = [
-        { name: 'Ricardo', color: 'story_color_1', link: '/ricardo' },
-        { name: 'Julia', color: 'story_color_2', link: '/julia' },
-        { name: 'Ricardo', color: 'story_color_3', link: '/ricardo' },
-        { name: 'Ricardo', color: 'story_color_4', link: '/ricardo' },
-        { name: 'Ricardo', color: 'story_color_5', link: '/ricardo' },
-        { name: 'Ricardo', color: 'story_color_6', link: '/ricardo' },
-    ]
 
     return (
         <div className={styles.container}>
@@ -55,7 +47,7 @@ export default function Stories() {
                             <Link href="/stories/marco">Marco</Link>
                         </li>
                         <li className={styles.story4}>
-                            <Link href="/stories/anick">Anick</Link>
+                            <Link href="/stories/tom">Tom</Link>
                         </li>
                         <li className={styles.story5}>
                             <Link href="/stories/loco">Loco Ninja</Link>

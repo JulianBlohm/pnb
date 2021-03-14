@@ -53,8 +53,8 @@ export default function Ricardo() {
                     To me, personality is only a label; sometimes, people make
                     up excuses of somebody’s behavior just because that’s their
                     personality, which I believe to be wrong. I just want to
-                    clarify that »my personality is who I am, and my behavior
-                    depends on who you are«. That being said, biology is a
+                    clarify that "my personality is who I am, and my behavior
+                    depends on who you are". That being said, biology is a
                     science that taught us that boys have to be on top of the
                     pyramid and girls must be submissive.{' '}
                 </p>
@@ -81,7 +81,7 @@ export default function Ricardo() {
                 </p>
 
                 <p>
-                    I must say that »ego« plays a huge part in this labeling of
+                    I must say that "ego" plays a huge part in this labeling of
                     the genders. For me, masculinity means pure toxicity. Maybe
                     it is because I lived in an environment of toxic masculinity
                     for most of my life, and it created an image of toxicity.
@@ -104,7 +104,7 @@ export default function Ricardo() {
                     And, of course, I’ve doubted it, but it only makes me
                     realize that I get stronger. I hate to admit that I fall
                     into the masculine box, especially in the dance world when
-                    people tell me to be male or »dance with some balls«. This
+                    people tell me to be male or "dance with some balls". This
                     expression just makes me want to slap them in the face. But
                     I won’t because my parents taught me better.
                 </p>
