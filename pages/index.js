@@ -40,6 +40,7 @@ export default function Home() {
                         safe space for people who think beyond pink and blue.
                         Come join us on an exciting journey through gender
                         identities, gender crises and exciting personalities.
+                        Click on the symbol on the top right to start.
                     </p>
                 </div>
             </main>

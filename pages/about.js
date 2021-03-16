@@ -53,7 +53,7 @@ export default function About() {
                     personality, without pink or blue labels.
                 </p>
                 <p>
-                    Behind we are four design students from Hamburg who are
+                    Behind GPNB are four design students from Hamburg who are
                     currently on their own gender journey as well. While they
                     are in the middle of reshaping their own boxes, they have
                     come together to create this project to give people a
